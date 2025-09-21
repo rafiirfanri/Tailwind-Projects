@@ -1,2 +1,9 @@
 @import "tailwindcss";
 
+@font-face {
+    font-family: flame;
+    src: url(../assits/fonts/flame-3-cufonfonts/FlameBold.otf);
+}
+@theme {
+--font-regular-custum :flame;
+}
